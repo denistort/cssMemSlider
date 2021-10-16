@@ -7,7 +7,7 @@ body{
 }
     
     ::selection {
-        background: transparent;
+        background: black;
     }
     
     .slider-wrapper{
