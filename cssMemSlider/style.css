@@ -163,3 +163,34 @@ body{
             align-items: center;
         }
     }
+
+    @media (max-width: 420px) and (min-width: 350px){
+        .slide>img {
+            width: 90vw;
+            height: 50vh;
+            border-radius: 20px;
+        }
+        .text {
+            color: white;
+            font-size: 22px;
+            height: 48%;
+            display: flex;
+            align-items: center;
+        
+        }
+        .slider-navigator::before{
+            display: none;
+        }
+        .slider-navigator {
+            position: absolute;
+            width: 129px;
+            display: flex;
+            justify-content: space-around;
+            bottom: 23%;
+            right: 30%;
+            z-index: 5000;
+            height: 20%;
+            background-color: transparent;
+            align-items: center;
+        }
+    }
